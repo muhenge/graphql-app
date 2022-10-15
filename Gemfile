@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
+gem "figaro"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
@@ -67,3 +68,4 @@ end
 gem "graphql", "~> 2.0"
 gem "graphiql-rails", group: :development
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem 'jwt'
